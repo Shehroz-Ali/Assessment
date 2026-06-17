@@ -1,0 +1,24 @@
+{
+  "name": "theysaid-evo-e2e",
+  "version": "1.0.0",
+  "description": "E2E tests for TheySaid Evo (evo.dev.theysaid.io)",
+  "scripts": {
+    "test": "playwright test --headed",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:login": "playwright test tests/login.spec.ts --headed",
+    "test:create": "playwright test tests/create-project.spec.ts --headed",
+    "test:teach-ai": "playwright test tests/teach-ai-upload.spec.ts --headed",
+    "test:publish": "playwright test tests/publish-and-survey.spec.ts --headed",
+    "report": "playwright show-report"
+  },
+  "keywords": ["playwright", "e2e", "theysaid"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "@types/node": "^22.15.0",
+    "dotenv": "^17.4.2",
+    "typescript": "^5.8.3"
+  }
+}
