@@ -4,7 +4,7 @@ Playwright end-to-end tests for [evo.dev.theysaid.io](https://evo.dev.theysaid.i
 
 ## Session recording
 
-[Add your Google Drive session recording link here](https://drive.google.com/)
+[Watch the assessment session recording on Google Drive](https://drive.google.com/file/d/1lS0C1CtB6ozzjx5TdCvB86lswH7vqQwY/view?usp=sharing)
 
 ## Prerequisites
 
